@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/abuot', function () {
     return view('about');
 });
+
+Route::get('/reporting', function () {
+    return view('reporting');
+});
